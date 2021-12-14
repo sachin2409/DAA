@@ -20,7 +20,7 @@ int main()
     parent[0]=-1;
     for(int c=0;c<n-1;c++)
     {
-        int mini=INT_MAX,u;
+        int mini=INT_MAX,u=-1;
         for(int v=0;v<n;v++)
         {
             if(mst[v]==false && key[v]<mini)
